@@ -127,11 +127,6 @@ public class CourseInfo {
                         String title = selectIdAndTitle.group(3);
                         c = new Course(id, title);
 
-                        //TODO: fix bug where if some HTML stuff is in the description
-                        // then the description looks all weird. Example: CHEM 242
-                        // I could probably fix it by using Element.text() instead of .toString()
-                        // but that would require reworking the below code
-                        // so i'll get to it later
                         //adding DESCRIPTION to c Course object
                         String description = pElems.get(1).text();
                         c.addDescription(description);
