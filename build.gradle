@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jsoup:jsoup:1.14.3'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.5'
+}

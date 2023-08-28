@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+
+# Vscode
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
