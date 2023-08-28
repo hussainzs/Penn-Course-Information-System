@@ -52,7 +52,7 @@ The Course Recommendation feature utilizes Vector Space Model and Text Analysis 
 ## Technical Details
 
 - **Data Collection**: We utilized JSOUP and Regex to extract and filter current data from Penn's website, ensuring users access the latest information. 
-- **Adaptation to System Changes:**: PCIS successfully adapted to significant changes in Penn's course code system. When the university introduced new course codes and updated its tech elective website, we re-implemented feature 3 from scratch.
+- **Adaptation to System Changes:**: PCIS successfully adapted to significant changes in Penn's course code system. When the university introduced new course codes and updated its tech elective website, we re-implemented feature 3 from scratch and fixed issues in other features.
 - **New JSON data collection**: Data collection for feature 3 was streamlined through the use of (publicly available) Penn's JSON API endpoint for CIS tech electives.
 - **Course Recommendation**: The project incorporates a customized Vector Space Model to handle user queries and course recommendations.
 - **Build Optimization**: To address constant dependencies and efficiency issues, incorporated Gradle into the project for smoother building and execution.
