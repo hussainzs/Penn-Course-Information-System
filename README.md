@@ -9,7 +9,7 @@ To get started with PCIS, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Make sure you have Java and Gradle installed. If you don't have Gradle install it from (https://gradle.org/releases/)
-3. Navigate to the project directory and run the following command to build the project: gradle build
+3. Navigate to the project directory and run the following command in terminal to build the project: gradle build
 4. Once the project is built, run Main.java
 
 
